@@ -143,12 +143,11 @@ const Index = () => {
               </p>
             </section>
 
-            {/* About Section */}
-            <section id="about" className="scroll-mt-20">
-              <h2 className="text-3xl font-bold mb-6">About Me</h2>
+            {/* Education Section */}
+            <section id="education" className="scroll-mt-20">
+              <h2 className="text-3xl font-bold mb-6">Education</h2>
               <div className="prose max-w-none">
                 <div className="mb-6">
-                  <h3 className="text-xl font-semibold mb-3">Education</h3>
                   <div className="space-y-3">
                     <div>
                       <p className="font-medium">Master of Science, Medical Physics</p>

@@ -1,13 +1,14 @@
 import { Search, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
     { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
+    { name: "Education", href: "#education" },
     { name: "Research Experience", href: "#research" },
     { name: "Medical Experience", href: "#medical" },
     { name: "Teaching", href: "#teaching" },
@@ -41,6 +42,7 @@ const Header = () => {
             <button className="text-muted-foreground link-hover">
               <Search className="h-5 w-5" />
             </button>
+            <ThemeToggle />
           </nav>
 
           {/* Mobile Menu Button */}
