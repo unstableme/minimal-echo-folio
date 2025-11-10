@@ -8,8 +8,12 @@ const Header = () => {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
-    { name: "Projects", href: "#projects" },
-    { name: "Blog", href: "#blog" },
+    { name: "Research Experience", href: "#research" },
+    { name: "Medical Experience", href: "#medical" },
+    { name: "Teaching", href: "#teaching" },
+    { name: "Publications", href: "#publications" },
+    { name: "Skills", href: "#skills" },
+    { name: "Awards & Memberships", href: "#awards" },
     { name: "Contact", href: "#contact" },
   ];
 

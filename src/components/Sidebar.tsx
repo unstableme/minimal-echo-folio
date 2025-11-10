@@ -12,13 +12,13 @@ const Sidebar = () => {
             alt="Profile"
             className="w-32 h-32 rounded-full object-cover mb-4 ring-4 ring-muted"
           />
-          <h2 className="text-2xl font-bold text-foreground mb-2">John Doe</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-2">Shankar Sapkota</h2>
           <p className="text-muted-foreground mb-4">
-            Full-stack developer passionate about creating elegant solutions to complex problems.
+            Medical Physics graduate student passionate about advancing radiation therapy and computational modeling in healthcare.
           </p>
           <div className="flex items-center text-sm text-muted-foreground mb-4">
             <MapPin className="h-4 w-4 mr-1" />
-            <span>San Francisco, CA</span>
+            <span>Omaha, NE</span>
           </div>
 
           {/* Social Links */}
@@ -48,7 +48,7 @@ const Sidebar = () => {
               <Twitter className="h-5 w-5" />
             </a>
             <a
-              href="mailto:john@example.com"
+              href="mailto:Shankar.Sapkota10@gmail.com"
               className="text-muted-foreground link-hover"
             >
               <Mail className="h-5 w-5" />
