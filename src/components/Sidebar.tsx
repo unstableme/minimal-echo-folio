@@ -1,5 +1,5 @@
 import { MapPin, Github, Linkedin, Twitter, Mail } from "lucide-react";
-import profileImage from "@/assets/profile.jpg";
+import profileImage from "@/assets/profile.jpeg";
 
 const Sidebar = () => {
   return (
